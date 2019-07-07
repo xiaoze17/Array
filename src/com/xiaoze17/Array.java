@@ -146,16 +146,5 @@ public class Array<T> {
         res.append("]");
         return res.toString();
     }
-    public void show() {
-        for (int i = 0; i < size; i++) {
-            //System.out.print(data[i] /+" ");
-            if(i!=size-1){
-                System.out.print(data[i]+" ");
-            }else{
-                System.out.print(data[i]);
-            }
-
-        }
-    }
 
 }
